@@ -129,4 +129,4 @@ class CloudFormationTest(unittest.TestCase):
         queue_urls = get_queue_urls()
 
         for resource in list_stack_summaries:
-            assert resource['PhysicalResourceId'] in queue_urls
+             assert resource['PhysicalResourceId'] in queue_urls
